@@ -1,11 +1,22 @@
 
 body {
     overflow-x: hidden;
+    background-color: #f4f4f4;
+}
+
+#carousel-image-1 {
+    background-image: url(/img/carousel1.jpg);
+}
+#carousel-image-2 {
+    background-image: url(../img/carousel2.jpg);
+}
+#carousel-image-3 {
+    background-image: url(../img/carousel3.jpg);
 }
 
 .carousel-item {
     height: 100vh;
-    min-height: 300px;
+    width: 100%;
     background: no-repeat center center scroll;
     background-size: cover;
 }
@@ -66,4 +77,10 @@ body {
 .navbar-dark .navbar-text a:active {
     color: #1695E1;
     transition: color 0.3s;
+}
+
+/*About page*/
+.img-logo img{
+    height: 50%;
+    width: 75%;
 }
