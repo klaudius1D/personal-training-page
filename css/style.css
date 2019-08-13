@@ -38,8 +38,7 @@ body {
     text-transform: uppercase;
 }
 
-.carousel-item:after,
-.dark-overlay:after {
+.carousel-item:after {
     content:"";
     display:block;
     position:absolute;
@@ -47,9 +46,8 @@ body {
     bottom:0;
     left:0;
     right:0;
-    background:rgba(0,0,0,0.5);
+    background:rgba(0,0,0,0.3);
   }
-
 
   /*Center-Out transition*/
   .nav-menu {
@@ -104,7 +102,7 @@ body {
 #programs img {
     width: 100%;
     height: auto;
-    opacity: 0.5;
+    opacity: 0.6;
     transform: scale(1.0);
 }
 #programs img:hover {
@@ -144,7 +142,7 @@ body {
 
 /*Testimonials*/
 #testimonials img {
-    margin-top: -70px; 
+    margin-top: -120px; 
 }
 #testimonials .card:hover {
     background: #1695E1;
@@ -157,8 +155,19 @@ body {
 
 /*Contact*/
 #contact {
+    position: relative;
     height: 100vh;
     width: 100%;
     background-image: url(../img/south.jpg);
     background-size: cover;
 }
+.dark-overlay:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.6);
+  }
