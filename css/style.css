@@ -143,8 +143,13 @@ body {
 }
 
 /*Testimonials*/
-#testimonials {
-    height: 100vh;
+#testimonials img {
+    margin-top: -70px; 
+}
+#testimonials .card:hover {
+    background: #1695E1;
+    color: #fff;
+    transition: background-color 1.0s; 
 }
 
 /*Contact*/
