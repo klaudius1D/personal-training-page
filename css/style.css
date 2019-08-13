@@ -26,7 +26,7 @@ body {
     top: 38%;
     text-transform: uppercase;
 }
-.carousel-caption h1 {
+.carousel-caption h1{
     font-weight: 400;
     letter-spacing: .2rem;
     text-shadow: .1rem .1rem .8rem black;
@@ -38,7 +38,8 @@ body {
     text-transform: uppercase;
 }
 
-.carousel-item:after {
+.carousel-item:after
+ {
     content:"";
     display:block;
     position:absolute;
@@ -76,20 +77,78 @@ body {
   }
 
 .navbar-dark .navbar-text a:link,
-.navbar-dark .navbar-text a:visited {
+.navbar-dark .navbar-text a:visited,
+#programs a:link,
+#programs a:visited {
     color: #fff;
 }
 
 .navbar-dark .navbar-text a:hover,
-.navbar-dark .navbar-text a:active {
+.navbar-dark .navbar-text a:active,
+#programs a:hover,
+#programs a:active {
     color: #1695E1;
     transition: color 0.3s;
 }
 
 /*About page*/
+#about {
+    height: 100vh;
+}
 .img-logo img{
     height: 50%;
     width: 75%;
 }
 
 /* Programs*/
+#programs img {
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+    transform: scale(1.0);
+}
+#programs img:hover {
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01);
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+    opacity: .65;
+}
+.no-padding [class*=col-]{
+    padding: 0;
+    background-color: #000;
+    overflow: hidden;
+}
+
+#programs h1 {
+    position: absolute;
+    font-size: 3rem;
+    color: #fff;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: .1rem .1rem .7rem #000;
+}
+
+#programs a {
+    position: absolute;
+    color: #fff;
+    font-size: 4rem;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+/*Testimonials*/
+#testimonials {
+    height: 100vh;
+}
+
+/*Contact*/
+#contact {
+    height: 100vh;
+    width: 100%;
+}
