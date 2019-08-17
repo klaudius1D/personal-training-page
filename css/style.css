@@ -16,7 +16,7 @@ body {
     background:transparent;
   }
   .navbar-default.scrolled{
-    background:rgba(0,0,0,0.6);
+    background:rgba(0,0,0,0.8);
     border-bottom: #1695E1 3px solid;
   }
 
@@ -24,10 +24,10 @@ body {
     background-image: url(/img/carousel1.jpg);
 }
 #carousel-image-2 {
-    background-image: url(../img/carousel2.jpg);
+    background-image: url(/img/carousel2.jpg);
 }
 #carousel-image-3 {
-    background-image: url(../img/carousel3.jpg);
+    background-image: url(/img/carousel3.jpg);
 }
 
 .carousel-item {
@@ -160,13 +160,14 @@ body {
 
 /*Testimonials*/
 #testimonials img {
-    margin-top: -120px; 
+    margin-top: -60px; 
 }
 #testimonials .card:hover {
     background: #1695E1;
     color: #fff;
     transition: background-color 1.0s; 
 }
+
 #testimonials span {
     font-size: 2rem;
 }
@@ -187,7 +188,7 @@ body {
     bottom:0;
     left:0;
     right:0;
-    background:rgba(0,0,0,0.6);
+    background:rgba(0,0,0,0.7);
   }
 
   .btn-primary {
