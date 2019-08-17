@@ -1,3 +1,9 @@
+/*Change color on scroll
+ */
+$(window).scroll(function () {
+    $('nav').toggleClass('scrolled', $(this).scrollTop() > 500);
+});
+
 //Get the current year
 $('#year').text(new Date().getFullYear());
 
@@ -21,3 +27,6 @@ $(function () {
         });
     });
 });
+
+
+
