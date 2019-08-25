@@ -1,5 +1,4 @@
-/*Change color on scroll
- */
+/*Change color on scroll for Navbar*/
 $(window).scroll(function () {
     $('nav').toggleClass('scrolled', $(this).scrollTop() > 650);
 });
@@ -27,6 +26,26 @@ $(function () {
         });
     });
 });
+
+//Scrollspy & smoothscrolling
+$('body').scrollspy({ target: '#main-nav' });
+
+//Smooth Scroll
+$("#main-nav a").on('click', function (event) {
+    if (this.hash !== "") {
+        event.preventDefault();
+
+        const hash = this.hash;
+
+        $('html, body').animate({
+            scrollTop: $(hash).offset().top
+        }, 500, function () {
+
+            window.location.hash = hash;
+        });
+    }
+});
+
 
 
 
