@@ -1,3 +1,4 @@
+
 /*Change color on scroll for Navbar*/
 $(window).scroll(function () {
     $('nav').toggleClass('scrolled', $(this).scrollTop() > 650);
@@ -42,10 +43,8 @@ $("#main-nav a").on('click', function (event) {
         }, 500, function () {
 
             window.location.hash = hash;
-        });
+        })
     }
 });
-
-
 
 
