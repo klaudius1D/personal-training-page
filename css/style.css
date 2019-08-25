@@ -21,13 +21,13 @@ body {
   }
 
 #carousel-image-1 {
-    background-image: url(/img/carousel1.jpg);
+    background-image: url('../img/carousel1.jpg');
 }
 #carousel-image-2 {
-    background-image: url(/img/carousel2.jpg);
+    background-image: url('../img/carousel2.jpg');
 }
 #carousel-image-3 {
-    background-image: url(/img/carousel3.jpg);
+    background-image: url('../img/carousel3.jpg');
 }
 
 .carousel-item {
