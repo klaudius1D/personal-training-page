@@ -1,0 +1,33 @@
+/*Bigger screens: from 768 to 1200px */
+@media only screen and (max-width: 1200px) {
+    
+}
+/* Small and big tablets: from 768 to 1023px */
+@media only screen and (max-width: 1023px) {
+    
+/* Small phones - tablets: from 481 to 767px */
+@media only screen and (max-width: 767px) {
+    
+    #about {
+        height: 80%;
+    }
+    #about h3 {
+        text-align: center;
+    }
+
+    #testimonials .my-5 .mb-5 {
+        margin: 0rem;
+    }
+    #testimonials .col {
+        height: 90px;
+    }
+
+    #programs h1 {
+        font-size: 2.2rem;
+        top: 38%;
+    }
+
+    #testimonials img {
+        margin-top: 0; 
+    }
+}

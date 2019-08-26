@@ -120,7 +120,7 @@ body {
 #programs img {
     width: 100%;
     height: auto;
-    opacity: 0.6;
+    opacity: 0.5;
     transform: scale(1.0);
 }
 #programs img:hover {
@@ -137,7 +137,6 @@ body {
     background-color: #000;
     overflow: hidden;
 }
-
 #programs h1 {
     position: absolute;
     font-size: 3rem;
@@ -148,16 +147,14 @@ body {
     text-transform: uppercase;
     text-shadow: .1rem .1rem .7rem #000;
 }
-
 #programs a {
     position: absolute;
     color: #fff;
     font-size: 4rem;
     top: 45%;
-    width: 100%;
-    text-align: center;
+    left: 40%;
+    width: 10%;
 }
-
 /*Testimonials*/
 #testimonials img {
     margin-top: -60px; 
@@ -199,3 +196,5 @@ body {
     background-color: #1176b3;
     border-color: #0062cc;
   }
+
+  
