@@ -30,4 +30,8 @@
     #testimonials img {
         margin-top: 0; 
     }
+
+    #contact {
+        height: 100vh;
+    }
 }
