@@ -1,7 +1,7 @@
 
 /*Change color on scroll for Navbar*/
 $(window).scroll(function () {
-    $('nav').toggleClass('scrolled', $(this).scrollTop() > 650);
+    $('nav').toggleClass('scrolled', $(this).scrollTop() > 250);
 });
 
 //Get the current year
